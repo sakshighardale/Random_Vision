@@ -1,4 +1,22 @@
-Random Vision :
----------------
-RandomVision is the web application developed using the Java, Spring Web MVC, JDBC, MySQL, JavaMail API, SMTP. In this, the inspirational quotes are stored in the database, user can get a random note per each click on button(Get Your Reflection), user can store this quote if he/she likes it.
-For storing the quote, user must need to register an account with information like username, email id, password. Once registration will be completed, the user will receive an email from admin. Then user can login, with credentials provided they will be verified with the stored data, then user can move on to home page and then he/she has 2 options. 1 is user can store the quote, all quotes will be visible to users that he/she has already saved to the date and time of storing, 2nd option is that user can get the quote onto his/her's email account. Atlast, user algo gets option to logout, which will lead him/her to welcomepage again.
+# Random Vision
+
+Random Vision is a web application designed to provide users with inspirational quotes. Built using Java, Spring Web MVC, JDBC, MySQL, and JavaMail API, the application allows users to receive random quotes, save them, and have them emailed to them.
+
+## Technologies Used
+
+- **Java**: Programming language used for development.
+- **Spring Web MVC**: For building the web application.
+- **JDBC**: For database connectivity.
+- **MySQL**: For storing quotes and user data.
+- **JavaMail API**: For sending emails.
+- **SMTP**: For email delivery.
+
+## Features
+
+- **User Registration**: Users can create an account with username, email ID, and password.
+- **Email Confirmation**: Upon successful registration, users receive a confirmation email from the admin.
+- **Login**: Users can log in with their registered credentials.
+- **Get Random Quote**: Users can click on "Get Your Reflection" to receive a random inspirational quote.
+- **Save Quotes**: Users can save quotes they like. Saved quotes are displayed with the date and time they were stored.
+- **Email Quotes**: Users can choose to receive their saved quotes via email.
+- **Logout**: Users can log out and be redirected to the welcome page.
